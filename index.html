@@ -10,15 +10,11 @@
         .hero-section {
   background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
     url("https://github.com/Jibran-bot/Saffr/blob/61442f2c0fb868c69e326cd1d048b8599c49e78c/Cover%202.png");
-  background-size: contain;       /* shows FULL image */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #000;         /* fills empty space */
-  min-height: 720px;              /* gives room for text */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 70px;              /* extra gap from top */
+   width: 100%;
+  height: 100%;
+  object-fit: contain;          /* FULL image visible (no crop) */
+  object-position: center;
+  display: block;
 }
 
         .product-card:hover { transform: translateY(-10px); transition: 0.3s; }
