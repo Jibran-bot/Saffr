@@ -8,14 +8,15 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         .hero-section {
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-    url("https://github.com/Jibran-bot/Saffr/blob/a464a9c7bf33c6daa8d6ce46019f028928582447/Cover%20Photo.jpg");
-   width: 100%;
-  height: 100%;
-  object-fit: contain;          /* FULL image visible (no crop) */
-  object-position: center;
-  display: block;
+  background-image: url("https://raw.githubusercontent.com/Jibran-bot/Saffr/5cddef55d1fcb6c0581b1180a04461766934e170/Cover%20Photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;   /* ⬅️ INCREASE WIDTH */
+  width: 100vw;                 /* FULL SCREEN WIDTH */
+  min-height: 720px;
+  background-color: #000;
 }
+
 
         .product-card:hover { transform: translateY(-10px); transition: 0.3s; }
         .logo-img { height: 60px; width: auto; object-fit: contain; }
