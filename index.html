@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffr | Pure Taste, Pure Saffr</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                        url('C:/Users/LINK TRADERS LT/Downloads/Upscale/Cover Photo.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+        }
+        .product-card:hover { transform: translateY(-10px); transition: 0.3s; }
+        .logo-img { height: 60px; width: auto; object-fit: contain; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#">
+                <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Logo.jpg" alt="Saffr Logo" class="logo-img">
+            </a>
+            
+            <div class="hidden md:flex space-x-8 font-bold text-gray-700 uppercase tracking-wider">
+                <a href="#tea" class="hover:text-red-600">Tea Blends</a>
+                <a href="#milk" class="hover:text-red-600">Milk Powder</a>
+                <a href="#" class="hover:text-red-600">Contact</a>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer"></i>
+                <i class="fa-solid fa-cart-shopping text-xl cursor-pointer"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section flex items-center justify-center text-center text-white">
+        <div class="px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">Pure Taste, Pure Saffr</h2>
+            <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto font-light drop-shadow-md">
+                Premium Tea Blends & Creamy Milk Powders for the Perfect Cup
+            </p>
+            <a href="#tea" class="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 inline-block shadow-xl">
+                Explore Collection <i class="fa-solid fa-arrow-down ml-2"></i>
+            </a>
+        </div>
+    </header>
+
+    <section id="tea" class="container mx-auto px-6 py-20">
+        <div class="flex flex-col items-center mb-12">
+            <h3 class="text-3xl font-bold uppercase tracking-widest text-gray-900">Tea Blends</h3>
+            <div class="h-1 w-20 bg-red-600 mt-2"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="product-card bg-white p-6 rounded-2xl shadow-lg text-center border border-gray-100">
+                <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Danedar.png" alt="Danedar" class="h-56 mx-auto object-contain mb-4">
+                <h4 class="text-xl font-bold mb-1">Danedar</h4>
+                <p class="text-gray-500 text-sm mb-4">Rich & Granular</p>
+                <button class="w-full bg-red-600 text-white py-2 rounded-lg font-bold hover:bg-black transition">Add to Cart</button>
+            </div>
+
+            <div class="product-card bg-white p-6 rounded-2xl shadow-lg text-center border border-gray-100">
+                <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Cafe Mixture.png" alt="Cafe Mixture" class="h-56 mx-auto object-contain mb-4">
+                <h4 class="text-xl font-bold mb-1">Cafe Mixture</h4>
+                <p class="text-gray-500 text-sm mb-4">Restaurant Special</p>
+                <button class="w-full bg-red-600 text-white py-2 rounded-lg font-bold hover:bg-black transition">Add to Cart</button>
+            </div>
+
+            <div class="product-card bg-white p-6 rounded-2xl shadow-lg text-center border border-gray-100">
+                <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Leaf Blend.png" alt="Leaf Blend" class="h-56 mx-auto object-contain mb-4">
+                <h4 class="text-xl font-bold mb-1">Leaf Blend</h4>
+                <p class="text-gray-500 text-sm mb-4">Premium Quality</p>
+                <button class="w-full bg-red-600 text-white py-2 rounded-lg font-bold hover:bg-black transition">Add to Cart</button>
+            </div>
+
+            <div class="product-card bg-white p-6 rounded-2xl shadow-lg text-center border border-gray-100">
+                <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Hotel Blend.png" alt="Hotel Blend" class="h-56 mx-auto object-contain mb-4">
+                <h4 class="text-xl font-bold mb-1">Hotel Blend</h4>
+                <p class="text-gray-500 text-sm mb-4">Strong Aroma</p>
+                <button class="w-full bg-red-600 text-white py-2 rounded-lg font-bold hover:bg-black transition">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="milk" class="bg-blue-50 py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col items-center mb-12">
+                <h3 class="text-3xl font-bold uppercase tracking-widest text-gray-900">Milk Powders</h3>
+                <div class="h-1 w-20 bg-blue-600 mt-2"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <div class="product-card bg-white p-4 rounded-xl shadow text-center">
+                    <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Creamy.png" alt="Creamy" class="h-40 mx-auto object-contain mb-4">
+                    <h4 class="font-bold">Saffr Creamy</h4>
+                    <button class="mt-4 text-blue-600 font-bold hover:text-blue-800 transition">View Details</button>
+                </div>
+                <div class="product-card bg-white p-4 rounded-xl shadow text-center">
+                    <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Full Cream.png" alt="Full Cream" class="h-40 mx-auto object-contain mb-4">
+                    <h4 class="font-bold">Full Cream</h4>
+                    <button class="mt-4 text-blue-600 font-bold hover:text-blue-800 transition">View Details</button>
+                </div>
+                <div class="product-card bg-white p-4 rounded-xl shadow text-center">
+                    <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Double Cream.png" alt="Double Cream" class="h-40 mx-auto object-contain mb-4">
+                    <h4 class="font-bold">Double Cream</h4>
+                    <button class="mt-4 text-blue-600 font-bold hover:text-blue-800 transition">View Details</button>
+                </div>
+                <div class="product-card bg-white p-4 rounded-xl shadow text-center">
+                    <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Nagori Milk.png" alt="Nagori" class="h-40 mx-auto object-contain mb-4">
+                    <h4 class="font-bold">Nagori Milk</h4>
+                    <button class="mt-4 text-blue-600 font-bold hover:text-blue-800 transition">View Details</button>
+                </div>
+                <div class="product-card bg-white p-4 rounded-xl shadow text-center">
+                    <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Dairy Super.jpg" alt="Dairy Super" class="h-40 mx-auto object-contain mb-4">
+                    <h4 class="font-bold">Dairy Super</h4>
+                    <button class="mt-4 text-blue-600 font-bold hover:text-blue-800 transition">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <img src="C:\Users\LINK TRADERS LT\Downloads\Upscale\Logo.jpg" alt="Saffr Logo" class="h-12 mx-auto mb-6 grayscale invert">
+            <p class="text-gray-400 mb-8">Premium Quality products for your family's health and taste.</p>
+            <div class="flex justify-center space-x-6 text-2xl">
+                <a href="#"><i class="fa-brands fa-facebook hover:text-red-600"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram hover:text-red-600"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp hover:text-red-600"></i></a>
+            </div>
+            <p class="mt-10 text-gray-600 text-sm border-t border-gray-800 pt-8">© 2024 Saffr Food Industries. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
